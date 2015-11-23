@@ -1,2 +1,7 @@
 ---
 lucky-word: yegg
+many-words:
+  first:
+    sub-one: first sub word
+    sub-two: second sub word
+  second: flat
