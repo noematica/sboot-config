@@ -3,28 +3,18 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
+      
+subject:
+  words: I,You,He,She,It
 
----
-spring:
-  profiles: subject
-words: I,You,He,She,It
+verb:  
+  words: ran,knew,had,saw,bought
 
----
-spring:
-  profiles: verb
-words: ran,knew,had,saw,bought
+article:
+  words: a,the
 
----
-spring:
-  profiles: article
-words: a,the
+adjective:
+  words: reasonable,leaky,suspicious,ordinary,unlikely
 
----
-spring:
-  profiles: adjective
-words: reasonable,leaky,suspicious,ordinary,unlikely
-
----
-spring:
-  profiles: noun
-words: boat,book,vote,seat,backpack,partition,groundhog  
+noun:
+  words: boat,book,vote,seat,backpack,partition,groundhog  
